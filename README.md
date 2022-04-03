@@ -97,4 +97,5 @@ The dashboard consists of:
 
 •	Visualization of individual decision trees
 
+View the Dashboard using the Link (https://mkqgk565ei-496ff2e9c6d22116-8050-colab.googleusercontent.com/)
 
