@@ -53,32 +53,32 @@ Global methods are explainability tools for explaining model behaviour from the 
 
 SHAP Feature Importance is based on the magnitude of feature attribution. From figure 3, the most contributing factors to the prediction of wine quality can be identified clearly. The first five contributing factors are Alcohol, Volatile acidity, Sulphates, Total Sulfur dioxide and PH.
 
-![Wine Quality Feature Importance](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%201.png)
+![Wine Quality Feature Importance](/main/Picture%201.png)
 
 
 **SHAP SUMMARY PLOT:**
 
 Summary plot combines both the feature importance (fig 3) with feature effects. With the summary plot (fig 5) the features values will be on y-axis and impact on the prediction is x-axis. Blue colour decreases the prediction quality wine while red colour increases the model prediction.
 
-![Wine Quality Summary plot](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%202.png)
+![Wine Quality Summary plot](/main/Picture%202.png)
 
 **Partial Dependence Plot (PDP):**
 
 With PDP plots, the relationship of the feature with prediction could be determined.The relationship could be linear, monotonic or complex.
 
-![Wine Quality Alcohol PDP PLOT](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%203.png)
+![Wine Quality Alcohol PDP PLOT](/main/Picture%203.png)
 
 **Partial Dependence Plot Features Interactions Plot:**
 
-![Wine Quality Features Interactions Plot](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%204.png)
+![Wine Quality Features Interactions Plot](/main/Picture%204.png)
 
 **Local Methods:**
 
 Local methods are explainability methods for explaining single observation prediction. In that regards, SHAP force plot will be used to explain the probability of an instance from the dataset been predicted as a good wine or not.
 
-![Wine Quality Single Feature Prediction](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%205.png)
+![Wine Quality Single Feature Prediction](/main/Picture%205.png)
 
-![](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%206.png)
+![](/main/Picture%206.png)
 
 ## TASK 3: Build a Web App using Dashboard Explainer
 
