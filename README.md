@@ -1,9 +1,8 @@
 # [Wine-Quality-Prediction](https://ngozinneke.github.io/Wine-Quality-Prediction/)
 
+In this project, the wine quality dataset was used to demostrate how to model red wine quality based on physicochemical tests and also explain the model predictions using different explainability frameworks. 
+
 ## Task 1: Red Wine Quality Prediction Using Regression Models.
-
-The aim of this project is to use the red wine samples to model red wine quality based on physicochemical tests.
-
 **Dataset Background:**
 
 The dataset was downloaded from the UCI machine learning repository (https://archive.ics.uci.edu/ml/index.php). The dataset is related to red wine samples from the north of Portugal.The first task is to model the red wine quality using red wine samples based on physicochemical tests. The dataset has 11 independent variables, 1,599 observations and 1 output variable (a scale of 0 - 10).
@@ -54,7 +53,8 @@ Global methods are explainability tools for explaining model behaviour from the 
 
 SHAP Feature Importance is based on the magnitude of feature attribution. From figure 3, the most contributing factors to the prediction of wine quality can be identified clearly. The first five contributing factors are Alcohol, Volatile acidity, Sulphates, Total Sulfur dioxide and PH.
 
-![Wine Quality Feature Importance] (https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%201.png)
+![Wine Quality Feature Importance](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%201.png)
+
 
 **SHAP SUMMARY PLOT:**
 
@@ -62,13 +62,13 @@ Summary plot combines both the feature importance (fig 3) with feature effects. 
 
 ![Wine Quality Summary plot](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%202.png)
 
-**Partial Dependence plots (PDP):**
+**Partial Dependence Plot (PDP):**
 
 With PDP plots, the relationship of the feature with prediction could be determined.The relationship could be linear, monotonic or complex.
 
-![Wine Quality Alcohol PDP PLOT] (https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%203.png)
+![Wine Quality Alcohol PDP PLOT](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%203.png)
 
-
+**Partial Dependence Plot Features Interactions Plot:**
 
 ![Wine Quality Features Interactions Plot](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%204.png)
 
@@ -78,7 +78,7 @@ Local methods are explainability methods for explaining single observation predi
 
 ![Wine Quality Single Feature Prediction](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%205.png)
 
-
+![](https://github.com/Ngozinneke/Wine-Quality-Prediction/blob/main/Picture%206.png)
 
 ## TASK 3: Build a Web App using Dashboard Explainer
 
