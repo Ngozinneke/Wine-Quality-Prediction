@@ -1,4 +1,4 @@
-# [Wine-Quality-Prediction] https://ngozinneke.github.io/Wine-Quality-Prediction/
+# [Wine-Quality-Prediction](https://ngozinneke.github.io/Wine-Quality-Prediction/)
 
 #Task 1: 
 
